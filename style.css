@@ -3,34 +3,71 @@ html {
 }
 
 body {
-    background-image: linear-gradient(120deg, #1f72be, #f3f1eb);
     min-height: 100%;
     margin-bottom: 100px;
     margin-top: 30px;
 }
 
+h2 {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    color: rgb(22, 22, 22);
+}
+
+.navbar {
+    background-color: rgb(22, 22, 22);
+
+}
+
+.jumbotron {
+    /* backgroun-image: linear-gradient(120deg, #7373a591, #e5e4e2); */
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgb(253, 253, 253));
+    color: rgb(22, 22, 22);
+    padding-top: 100px;
+
+}
 
 .jumbotron img {
     width: 200px;
-    border: 5px solid #1f71be91;
+    border: 4px solid rgba(22, 22, 22, 0.938);
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3);
+
+}
+
+.jumbotron h1 {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+
 }
 
 hr {
     width: 250px;
-    border-top: 4px solid #555;
+    border-top: 4px solid rgb(22, 22, 22);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 section {
-    min-height: 600px;
+    min-height: 400px;
 
+}
+
+.about p {
+    padding-top: 10px;
 }
 
 .portfolio {
     background-color: #eee;
+    border-radius: 12px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3);
+    padding-top: 50px;
 }
 
 .contact {
     height: 800px;
+    padding-top: 50px;
+}
+
+button {
+    background-color: rgb(0, 0, 0) !important;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3);
 }
 
 footer {
